@@ -1,3 +1,0 @@
-git rm ZenHubBuildBoat
-git commit -m "removendo ZenHubBuildBoat"
-git push origin main
