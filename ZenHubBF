@@ -1,6 +1,6 @@
 local WindUI = (loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")))();
 local Window = WindUI:CreateWindow({
-	Title = "Vortex Hub",
+	Title = "Zen Hub",
 	Author = "by voxxel_0",
 	Folder = "ZenHubs",
 	Size = UDim2.fromOffset(520, 300),
@@ -10,13 +10,13 @@ local Window = WindUI:CreateWindow({
 	HasOutline = false,
 });
 Window:EditOpenButton({
-	Title = "Yuongzmin trash",
+	Title = "Slaymcray ♥️",
 	CornerRadius = UDim.new(0, 10),
 	Draggable = false
 });
 local Tabs = {
     InfoTab = Window:Tab({
-		Title = "???",
+		Title = "Discord",
 		Icon = "info",
 		Desc = "Info Section"
 	}),
@@ -2166,13 +2166,13 @@ spawn(function()
 end);
 DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 	Title = "Discord Server",
-	Desc = "Link Discord YGz Hub",
+	Desc = "Link Discord Zen Hub",
 	TextXAlignment = "Left",
 	Buttons = {
 		{
 			Title = "Copy Link Discord",
 			Callback = function()
-				setclipboard("https://discord.gg/3gGZCs7tPt");
+				setclipboard("https://discord.gg/M75MQEtEW7");
 				WindUI:Notify({
 					Title = "Notication",
 					Content = "Discord Link Copied",
